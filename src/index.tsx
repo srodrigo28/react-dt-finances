@@ -13,10 +13,10 @@ createServer({
   seeds(server) {
     server.db.loadData({
       transactions: [
-        { id: 1, title: 'Frelance de app', type: 'deposit', category: 'Dev', amount: 6000, createAt: new Date('2022-03-12 10:10:11') },
-        { id: 2, title: 'Frelance de mobile', type: 'deposit', category: 'Dev', amount: 4000, createAt: new Date('2023-03-12 14:10:11') },
-        { id: 3, title: 'Contas mês', type: 'withdraw', category: 'Mensal', amount: 5000, createAt: new Date('2023-03-14 14:10:11') },
-        { id: 4, title: 'Contas mês', type: 'withdraw', category: 'Mensal', amount: 200, createAt: new Date('2023-03-15 11:10:11')},
+        { id: 1, title: 'Frelance de app', type: 'deposit', category: 'Dev', amount: 6000, createdAt: new Date('2022-03-12 10:10:11') },
+        { id: 2, title: 'Frelance de mobile', type: 'deposit', category: 'Dev', amount: 4000, createdAt: new Date('2023-03-12 14:10:11') },
+        { id: 3, title: 'Contas mês', type: 'withdraw', category: 'Mensal', amount: 5000, createdAt: new Date('2023-03-14 14:10:11') },
+        { id: 4, title: 'Contas mês', type: 'withdraw', category: 'Mensal', amount: 200, createdAt: new Date('2023-03-15 11:10:11')},
       ],
     })
   },
