@@ -4,9 +4,10 @@
 # Dependências
     * npm install --save styled-components
     * npm install --save @types/styled-components
-    * npm install --save-dev miragejs
     * npm install --save react-modal
     * npm install --save @types/react-modal
+    * npm install --save-dev miragejs
+    * npm install --save axios
 # Components
     * Dashboard
     * Header
