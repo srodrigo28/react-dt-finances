@@ -16,7 +16,6 @@ export const GlobalStyle = createGlobalStyle`
 
         --background: #f0f2f5;
         --shape: #fff;
-
     }
     *{
         margin: 0;
@@ -25,6 +24,12 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     html {
+        @media(max-width: 2560px){
+            font-size: 120%;
+        }
+        @media(max-width: 1920px){
+            font-size: 100%;
+        }
         @media(max-width: 1080px){
             font-size: 93.75%;
         }
@@ -47,7 +52,6 @@ export const GlobalStyle = createGlobalStyle`
         opacity: .6;
         cursor: not-allowed;
     }
-
     .react-modal-overlay{
         background: rgba(0,0,0, 0.5);
 

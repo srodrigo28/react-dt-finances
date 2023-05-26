@@ -28,4 +28,23 @@ export const Content = styled.div`
         }
     }
 `;
+
+export const IconContainer = styled.div`
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    font-size: 2em;
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+
+    &:hover{
+        opacity: .5;
+    }
+`
 export const Titulo = styled.h1``
