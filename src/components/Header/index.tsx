@@ -1,6 +1,5 @@
-import { Container, Content, IconContainer } from "./styles"
+import { Container, Content } from "./styles"
 import logoImg from './../../assets/logo.svg';
-import { MdClose } from 'react-icons/md'
 
 interface HeaderProps{
     onOpenNewTransactionModal: () => void;
@@ -17,9 +16,6 @@ export function Header({onOpenNewTransactionModal}: HeaderProps) {
                     onClick={onOpenNewTransactionModal}>
                     Nova Transação
                 </button>
-                <IconContainer>
-                    <MdClose />
-                </IconContainer>
             </Content>
 
         </Container>
